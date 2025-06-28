@@ -23,6 +23,67 @@
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
 ## Description
+# 📌 RealEstate API
+
+A **modular, full-featured backend API** built with [NestJS](https://nestjs.com/).  
+This project demonstrates how to build a **modern, scalable backend** with:
+- ✅ Secure authentication (Local, JWT, Google OAuth)
+- ✅ Role-based authorization using Guards & Decorators
+- ✅ Modular domain structure for real-world features
+- ✅ Robust validation (DTOs & Zod)
+- ✅ Seed scripts for database population
+- ✅ Example unit & E2E tests
+
+**Use this as a starter template** for building production-ready backend services.
+
+---
+
+## ✨ **Project Goal**
+
+This project serves as a **boilerplate** for teams or individuals who want to:
+- Learn **NestJS** best practices
+- Implement **auth flows** (JWT, Google OAuth)
+- Use **role-based access control**
+- Build well-structured modules (User, Property, etc.)
+- Automate database seeding for dev/test environments
+
+---
+
+## ⚙️ **Features**
+
+✅ **Authentication**
+- Local strategy with username & password
+- JWT Access & Refresh Tokens
+- Google OAuth2 integration
+- Custom Guards for auth & roles
+
+✅ **Authorization**
+- Role-based decorators & guards
+- Public route decorators
+- Flexible config files for JWT secrets
+
+✅ **Entities & Modules**
+- User management (CRUD)
+- Property management (CRUD, DTOs, custom pipes)
+- Property features & types
+
+✅ **Database Seeding**
+- Factory-based seeders for realistic data
+- Easy local development setup
+
+✅ **Validation**
+- DTO classes with decorators
+- Zod validation pipes for advanced use cases
+
+✅ **Testing**
+- Unit tests for services & guards
+- E2E tests with Jest
+
+---
+
+## 🗂️ **Project Structure**
+
+
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
